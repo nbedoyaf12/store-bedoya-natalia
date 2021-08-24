@@ -1,0 +1,18 @@
+@import "./variables";
+@import "./components/Header/Header.styles";
+@import "./components/Section/Section.styles";
+@import "./components/Results/Results.styles";
+@import "./components/Results/Filters/Filters.styles";
+@import "./components/Results/Products/Products.styles";
+@import "./components/Results/Products/Card/Card.styles";
+@import "./components/Results/Filters/Button/Button.styles";
+@import "./components/Results/Footer/Footer.styles";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.App {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+    align-items: center;
+}

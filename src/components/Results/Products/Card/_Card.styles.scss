@@ -1,0 +1,26 @@
+@import "../../../../variables";
+@import "../../../../mixins";
+
+
+.card {
+    @include flexColumn;
+    max-width: 276px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 3%;
+}
+
+.productDescription {
+    @include flexColumn;
+    border-top: 1px solid $lightgrey;
+
+    .kind {
+        font-size: 16px;
+        color: $lightgrey;
+    }
+
+    .productName {
+        font-size: 18px;
+        color: $darkgrey;
+    }
+}
